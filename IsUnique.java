@@ -24,6 +24,6 @@ public class IsUnique { // the class or object. In this case the entire program
   }
   public static void main(String[] args) { // this is the main method for the class that gets executed when you compile and run the program as an executable
     System.out.println(IsUnique.isUnique("hello")); // prints out false
-    System.out.println("unique"); // prints out true
+    System.out.println("hi"); // prints out true
   }
 }
