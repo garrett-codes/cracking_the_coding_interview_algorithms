@@ -1,7 +1,10 @@
 import java.util.Set;
 import java.util.HashSet;
 
-
+/* overall this solution should solve the algorithm in O(n) time complexity 
+because you are iterating through the string of n characters and it takes about O(1)
+to access data from a hashset. All of the other processes are thought of as instant for simplicity.
+*/
 public class IsUnique { // the class or object. In this case the entire program
 
   // this is a method that returns a boolean
