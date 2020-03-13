@@ -7,9 +7,9 @@ to access data from a hashset. All of the other processes are thought of as inst
 */
 public class IsUnique { // the class or object. In this case the entire program
 
-  // this is a method that returns a boolean
+  // this is a method that returns a boolean and takes in a string a an argument
   public static boolean isUnique(String str) { /* the public part means you can access 
-                                               this method outside of the object    */
+                                               this method outside of the object*/
     Set<Character> set = new HashSet<>();     /* static this method is used by the class
                                                and not the instance of the object*/
     for (int i = 0; i < str.length(); ++i) { // typical for loop starting at 0
