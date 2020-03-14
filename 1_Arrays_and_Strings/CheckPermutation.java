@@ -13,6 +13,9 @@ public class CheckPermutation {
     ii) if the hash map does contain it and the value is greater than zero return false because theres no more left
     ii) if the hash map contains it and the value is greater than zero decrement the value by one and continue processing the string
   4) If we get to the end without returning false, return true becasue it passed all of the tests
+  Peep the O(n) time complexity :)
+  I guess I was more concerned with time complexity approaching this and I traded it off for having an O(n) space complexity.
+  The typical way of solving it appears to be just sorting the two in O(nlog(n)) time complexity and then you are using O(1) space complexity.
   */
 
   // checks if str1 is a permutation of the other
