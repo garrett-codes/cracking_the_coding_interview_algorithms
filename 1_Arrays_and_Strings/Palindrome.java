@@ -11,7 +11,7 @@ Process:
 */
 
 
-public class PalindromePermutation {
+public class Palindrome {
 
   
   public static boolean check(String str) { // takes in a string as an input and returns true/false
