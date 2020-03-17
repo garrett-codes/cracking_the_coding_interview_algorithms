@@ -1,4 +1,5 @@
 /*
+Sorry this is not the permutation panlindrome walkthrough. Good less is that I failed to fully read what the question was asking. Haha
 Goal: Check if a string is palindrome, or, if it is symmetrical
 Draw it out: ["taco cat"] => true   ["not"] => false
                ^      ^               ^ ^
